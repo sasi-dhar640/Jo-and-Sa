@@ -1,0 +1,239 @@
+body {
+    font-family: 'Great Vibes', cursive; /* Romantic font */
+    /*background-color: #ffebee; /* Soft pink background */
+    
+     margin: 0;
+      color: #444; /* Darker text color for better readability */
+    /*align-items: center;
+    height: 100vh;
+
+    display: block;
+    justify-content: center;
+   
+    /*animation: backgroundAnimation 20s infinite alternate; /* Background animation */
+
+     background: url('logo.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+
+/*@keyframes backgroundAnimation {
+    0% { background-color: #736AAF; }
+    100% { background-color: #453D77; } /* Lighter pink */
+/*} */
+
+.container {
+   /* text-align: center;
+   background-color: rgba(255, 255, 255, 0.9); /* White background with slight transparency */
+   /* border-radius: 20px; /* More rounded corners */
+   /* box-shadow: 0 8px 30px rgba(0, 0, 0, 0.9); /* Deeper shadow for a floating effect */
+    /*padding: 30px;
+    width: 400px; /* Fixed width for the container */
+     
+
+     text-align: center;
+    background: rgba(255, 255, 255, 0.1); /* Semi-transparent white */
+    border-radius: 20px;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.3); /* Softer shadow */
+    padding: 30px;
+    width: 400px;
+    backdrop-filter: blur(4px); /* Glass effect */
+    -webkit-backdrop-filter: blur(10px); /* Safari support */
+    border: 1px solid rgba(255, 255, 255, 0.2); /* Optional subtle border */
+     
+    
+    
+}
+
+h1 {
+    font-family: 'Great Vibes', cursive;
+    font-size: 2.5em; /* Larger title font size */
+    margin-bottom: 20px;
+    color: #e91e63; /* Pink color for the title */
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.4); /* Soft shadow for the title */
+}
+
+button {
+    padding: 12px 25px;
+    font-size: 18px;
+    margin-top: 20px;
+    cursor: pointer;
+    border: none; /* Remove default border */
+    border-radius: 25px; /* Fully rounded button corners */
+    background-color: #e91e63; /* Pink background for buttons */
+    color: white; /* White text color */
+    transition: background-color 0.3s, transform 0.2s; /* Smooth transitions */
+    font-weight: bold; /* Bold text for buttons */
+}
+
+button:hover {
+    background-color: #c2185b; /* Darker pink on hover */
+    transform: scale(1.05); /* Slightly enlarge button on hover */
+}
+
+.hidden {
+    display: none;
+}
+
+.card {
+    width: 200px; /* Playing card width */
+    height: 300px; /* Playing card height */
+    perspective: 1000px;
+    margin: 20px auto;
+}
+
+.card-inner {
+    
+    position: relative;
+    width: 100%;
+    height: 100%;
+    transition: transform 2s; /* Smooth transition for 360-degree flip */
+    transform-style: preserve-3d;
+}
+
+.card-front, .card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px; /* Larger font size for questions */
+    padding: 20px;
+    border-radius: 15px; /* Rounded corners for cards */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5); /* Soft shadow for cards */
+}
+
+.card-front {
+    
+    background-color: #ffffff; /* White background for the front */
+    color: #333; /* Dark text color */
+    
+}
+
+.card-back {
+    transform: rotateY(180deg);
+    background-color: #70497E; /* Light peach background for the back */
+    color: #333; /* Dark text color */
+}
+
+.watermark {
+    font-family: Yellowtail;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    font-size: 30px;
+    color: rgba(255, 105, 180, 0.2); /* Light pink watermark */
+    font-weight: bold;
+    pointer-events: none; /* Prevent interaction */
+}
+
+#flipButton {
+    margin-top: 20px;
+    background-color: #ff9800; /* Orange background for flip button */
+    border-radius: 25px; /* Fully rounded button corners */
+}
+
+#flipButton:hover {
+    background-color: #f57c00; /* Darker orange on hover */
+}
+
+.footer {
+    margin-top: 20px;
+    font-size: 16px;
+    color: #555; /* Darker text for footer */
+}
+
+#endtext {
+    font-size: 1.5em; /* Larger title font size */
+    margin-bottom: 20px;
+    color: #f23232; /* Pink color for the title */
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2); /* Soft shadow for the title */
+}
+
+#subtitles {
+    font-family: Ancizar Serif;
+}
+
+
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+
+.footer.gentle-rules {
+  font-family:Jura;
+  font-size: 1.2em;
+  text-align: center;
+  color: #E1E3F3;
+  padding: 20px;
+  border-top: 1px dashed #ee5b5b;
+   border-bottom: 1px dashed #ee5b5b;
+    backdrop-filter: blur(6px);
+
+    
+  
+}
+
+
+.copyright-section {
+  text-align: center;
+  padding: 10px;
+  font-size: 0.9em;
+  color: #A52311;
+  font-style: italic;
+  font-family: Roboto;
+  
+}
+
+#intro {
+    color: #E1E3F3;
+    font-family: Roboto;
+     text-align: center;
+
+}
+
+
+#mainrules {
+
+     text-align: center;
+  padding: 20px;
+  border-top: 1px dashed #ee5b5b;
+   border-bottom: 1px dashed #ee5b5b;
+    backdrop-filter: blur(20px);
+
+}
+
+.ruleheadding {
+
+    font-family:Jura;
+  font-size: 1.2em;
+  text-align: center;
+  color: #e81d02;
+
+}
+
+.ruleexplain {
+
+    font-family: Yellowtail;
+    color:  #011730;
+    text-shadow: #333333;
+
+}
+
+
+.container-wrapper {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
